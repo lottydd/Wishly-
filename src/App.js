@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/landing-page/Header';
+import Introduction from './components/landing-page/Introduction';
+import Preferences from './components/landing-page/Preferences';
+import Footer from './components/landing-page/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App relative">
+        <div class="bg-cover bg-center bg-[url('bgphoto.jpg')]">
+          <Header />
+          <Introduction />
+        </div>
+        <div className="absolute inset-0 bg-custompurple-200/50"></div>
+      </div>
+      <div>
+        <Preferences />
+        <Footer />
+      </div>
+    </>
   );
 }
 
