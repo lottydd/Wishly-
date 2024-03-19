@@ -2,6 +2,10 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    borderRadius: {
+      '4xl': '2.813rem',
+      '5xl': '3.125rem',
+    },
     colors: {
       custompurple: {
         100: '#4E53CC',
@@ -15,22 +19,32 @@ module.exports = {
       },
     },
     fontSize: {
-      custom1: '1.25rem',
-      custom2: '1.5rem',
-      custom3: '1.75rem',
-      custom4: '2rem',
-      custom5: '2.25rem',
-      custom6: '2.5rem',
-      custom7: '3rem',
-      custom8: '3.125rem',
-      custom9: '3.625rem',
-      custom10: '4rem',
+      custom1: '1rem',
+      custom2: '1.25rem',
+      custom3: '1.5rem',
+      custom4: '1.75rem',
+      custom5: '1.875rem',
+      custom6: '2rem',
+      custom7: '2.25rem',
+      custom8: '2.5rem',
+      custom9: '3rem',
+      custom10: '3.125rem',
+      custom11: '3.625rem',
+      custom12: '4rem',
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif'],
     },
 
-    extend: {},
+    extend: {
+      size: {
+        custom1: '15.625rem',
+      },
+
+      space: {
+        '15px': '15px',
+      },
+    },
   },
   plugins: [],
 };

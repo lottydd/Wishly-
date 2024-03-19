@@ -1,9 +1,9 @@
 import React from 'react';
-import './Footer.css';
+import './RegFooter.css';
 import logo from './wishlylogo.png';
-const Footer = () => {
+const RegFooter = () => {
   return (
-    <div className="Footer bg-custompurple-100 flex flex-col items-center text-customgray-100 ">
+    <div className="RegFooter bg-custompurple-100 flex flex-col items-center text-customgray-100 ">
       <div className="flex mt-10">
         <div className="mr-20">
           <img src={logo} height={88} width={317} />
@@ -34,4 +34,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default RegFooter;
