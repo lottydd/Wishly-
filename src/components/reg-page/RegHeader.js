@@ -4,7 +4,7 @@ import './RegHeader.css';
 const RegHeader = () => {
   return (
     <div className=" RegHeader flex  ">
-      <div className="mt-12 ml-48">
+      <div className="mt-12 ml-56 ">
         <img src={logo} height={88} width={317} />
       </div>
     </div>

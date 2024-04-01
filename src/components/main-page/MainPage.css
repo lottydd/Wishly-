@@ -1,0 +1,16 @@
+.MainPageHeader {
+    width: 100%;
+    height: 300px;
+  }
+.MainPageProfile  {
+  width: 100%;
+  height: 600px;
+}
+.MainPageContent  {
+  width: 100%;
+  height: 1200px;
+}
+.MainPageFooter  {
+  width: 100%;
+  height: 300px;
+}

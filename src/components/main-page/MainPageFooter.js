@@ -1,11 +1,12 @@
 import React from 'react';
-import './RegFooter.css';
 import logo from './wishlylogo.png';
-const RegFooter = () => {
+import './MainPage.css';
+
+const MainPageFooter = () => {
   return (
-    <div className="RegFooter bg-custompurple-100 flex flex-col items-center text-customgray-100 ">
+    <div className="MainPage bg-custompurple-100 flex flex-col items-center text-customgray-100 ">
       <div className="flex mt-10">
-        <div className="mr-16">
+        <div className="mr-20">
           <img src={logo} height={88} width={317} />
         </div>
         <div className="flex">
@@ -27,11 +28,10 @@ const RegFooter = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 ml-4">
+      <div className="mt-10">
         <h1 className="text-custom5">Copyright © 2024 Wishly</h1>
       </div>
     </div>
   );
 };
-
-export default RegFooter;
+export default MainPageFooter;

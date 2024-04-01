@@ -1,17 +1,12 @@
 import React from 'react';
 import './RegBody.css';
-import screenshot from './mainscreenshot.png';
+import screenshot from './wishlistscreenshot2.png';
+import vector from './vector.png';
+import RegForm1 from './RegForm1';
+import RegShow from './RegShow';
 
 const RegBody = () => {
-  return (
-    <div className="RegBody">
-      RegBody
-      <div>
-        <img src={screenshot} height={88} width={317} />
-      </div>
-      <div>sadasd</div>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default RegBody;
